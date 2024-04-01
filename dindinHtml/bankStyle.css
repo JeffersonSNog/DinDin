@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff00; /* Amarelo */
+    color: #000000; /* Preto */
+    background-image: url('bg.jpg');
+}
+
+header {
+    background-color: #000000; /* Preto */
+    padding: 20px 0;
+    text-align: center;
+    color: #ffff00; /* Amarelo */
+}
+
+nav {
+    background-color: #000000; /* Preto */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.link {
+    color: #ffff00; /* Amarelo */
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hover-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Preto com transparência */
+    color: #ffff00; /* Amarelo */
+    padding: 10px;
+    text-align: center;
+}
+
+.flexbox {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.services {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000000; /* Preto */
+    padding: 20px 0;
+    text-align: center;
+    color: #ffff00; /* Amarelo */
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact,
+.hours {
+    flex: 1;
+}
+
+.contact h3,
+.hours h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact p,
+.hours p {
+    font-size: 16px;
+    margin: 0;
+}
